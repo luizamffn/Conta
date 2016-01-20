@@ -12,7 +12,6 @@ public class Banco {
 	}
 	
 	public void adiciona(Conta c){
-		this.conta[i] = new Conta();
 		this.conta[i] = c;
 		i++;
 	}
