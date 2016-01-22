@@ -1,6 +1,7 @@
 package modelo;
 
-public class Conta {
+public abstract class Conta {
+	
 	protected double saldo = 0;
 	
 	public void deposita(double valor) {
@@ -11,9 +12,7 @@ public class Conta {
 	    this.saldo -= valor;
 	}
 	
-	public void  atualiza(double taxa) {
-		this.saldo += this.saldo * taxa;
-	}
+	public abstract void  atualiza(double taxa);
 	
 	public double getSaldo() {
 		return saldo;

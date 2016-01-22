@@ -6,9 +6,6 @@ public class Banco {
 	
 	public Banco() {
 		this.conta = new Conta[10];
-//		for (Conta c : conta) {
-//			c = new Conta();
-//		}
 	}
 	
 	public void adiciona(Conta c){

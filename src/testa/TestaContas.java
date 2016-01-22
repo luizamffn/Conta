@@ -11,7 +11,7 @@ public class TestaContas {
 //		ContaCorrente cc = new ContaCorrente();
 //		ContaPoupanca cp = new ContaPoupanca();
 		
-		Conta c = new Conta();
+		Conta c = new ContaCorrente();
 		Conta cc = new ContaCorrente();
 		Conta cp = new ContaPoupanca();
 		
